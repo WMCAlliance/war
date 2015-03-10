@@ -6,6 +6,7 @@ public enum ScoreboardType {
 	POINTS("Points"),
 	LIFEPOOL("Lifepool"),
 	TOPKILLS("Top kills");
+	//TODO Deaths
 	private final String displayName;
 
 	private ScoreboardType(String displayName) {
